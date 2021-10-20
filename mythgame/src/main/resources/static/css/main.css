@@ -1,0 +1,86 @@
+@charset "ISO-8859-1";
+
+@font-face {
+	font-family: "Black Chancery";
+	src: local("Black Chancery"), url(/static/assets/fonts/BLKCHCRY.TTF), url(/assets/fonts/BLKCHCRY.TTF);
+}
+
+@font-face {
+	font-family: "Luminari";
+	src: url(https://fonts.googleapis.com/css?family=Luminari);
+}
+
+@font-face {
+	font-family: "Noto Serif Display";
+	src: url(https://fonts.googleapis.com/css?family=Noto+Serif+Display);
+}
+
+.index-bg {
+	background-image: url(/assets/images/vintage-map-wallpaper.jpg);
+	-webkit-background-size: cover;
+	height: 100vh;
+}
+
+.title {
+	font-family: "Black Chancery", "Luminari", serif;
+	font-size: 6em;
+	font-style: italic;
+	color: rgba(158, 0, 0);
+	text-shadow: 1px 1px 1px black;
+}
+
+.burger-img {
+	height: 60px;
+	width: 60px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.image-box {
+	margin: 0px;
+	padding: 0px;
+	height: fit-content;
+	width: fit-content;
+	box-shadow: 2px 2px 5px black;
+}
+
+.welcome {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-menu {
+	background-color: rgba(158, 0, 0, 0.53);
+	width: fit-content;
+	margin: auto;
+}
+
+.menu .menu-item {
+	font-family: "Times New Roman", serif;
+	font-size: 1.5em;
+}
+
+.compass-img {
+	height: 70px;
+	width: 70px;
+	background-color: transparent;
+}
+
+.hidden {
+	height: 1px;
+	width: 0px;
+}
+
+#drop-down {
+	position: absolute;
+	margin-top: 73px;
+	width: fit-content;
+	height: fit-content;
+	background-color: rgba(0, 2, 117, 0.9);
+	font-family: 'Times New Roman', serif;
+}
+
+.menu-bullet {
+	margin-top: 3px;
+	height: 25px;
+	width: 25px;
+}
